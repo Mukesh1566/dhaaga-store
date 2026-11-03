@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="UTF-8">
+<!-- ===== GOOGLE TAG MANAGER: paste your GTM snippet on the line below this one ===== -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout | Dhaaga</title>
+<meta name="description" content="Complete your Dhaaga order.">
+<link rel="canonical" href="https://mukesh1566.github.io/dhaaga-store/checkout.html">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="Checkout | Dhaaga">
+<meta property="og:description" content="Complete your Dhaaga order.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mukesh1566.github.io/dhaaga-store/checkout.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="checkout">
+<div class="topbar">Free shipping on orders above ₹1,999 &nbsp;|&nbsp; Cash on delivery available &nbsp;|&nbsp; 7-day easy returns</div>
+<header class="site">
+<div class="wrap bar">
+<a class="logo" href="index.html" aria-label="Dhaaga home">Dhaaga<small>menswear</small></a>
+<nav class="main" id="mainNav" aria-label="Main"><a href="t-shirts.html">T-Shirts</a><a href="shirts.html">Shirts</a><a href="trousers.html">Trousers</a><a href="jeans.html">Jeans</a><a href="kurtas.html">Kurtas</a><a href="jackets.html">Jackets</a></nav>
+<a class="cart-link" id="cartLink" href="cart.html" aria-label="Shopping bag">Bag <span class="cart-count" id="cartCount">0</span></a>
+<button id="menuBtn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+</div>
+</header>
+<main class="wrap" style="padding:40px 24px 72px"><h1>Checkout</h1><div class="cart-grid">
+<form id="checkoutForm" novalidate>
+<h3>Delivery details</h3>
+<div class="form-grid">
+<div><label>Full name<input type="text" name="fname" required autocomplete="name"></label></div>
+<div><label>Mobile number<input type="tel" name="phone" required pattern="[0-9]{10}" maxlength="10" autocomplete="tel"></label></div>
+<div class="full"><label>Email<input type="email" name="email" required autocomplete="email"></label></div>
+<div class="full"><label>Address<input type="text" name="address" required autocomplete="street-address"></label></div>
+<div><label>City<input type="text" name="city" required></label></div>
+<div><label>PIN code<input type="text" name="pin" required pattern="[0-9]{6}" maxlength="6"></label></div>
+</div>
+<h3 style="margin-top:28px">Payment</h3>
+<div class="pay"><label><input type="radio" name="pay" value="cod" checked> Cash on delivery</label><label><input type="radio" name="pay" value="upi"> UPI on delivery</label></div>
+<p id="formMsg" style="color:#b3261e;min-height:1.4em"></p>
+<button class="btn" id="placeOrder" type="submit">Place order</button>
+<p class="tax">This is a demo store. No payment is taken and no order is shipped.</p>
+</form>
+<aside class="summary" id="orderSummary"></aside></div></main>
+<footer class="site">
+<div class="wrap">
+<div class="cols">
+<div><a class="logo" style="color:#fff" href="index.html">Dhaaga</a><p>Menswear stitched around the way you live. Designed in India.</p></div>
+<div><h4>Shop</h4><a href="t-shirts.html">T-Shirts</a><a href="shirts.html">Shirts</a><a href="trousers.html">Trousers</a><a href="jeans.html">Jeans</a><a href="kurtas.html">Kurtas</a><a href="jackets.html">Jackets</a></div>
+<div><h4>Bag</h4><a href="cart.html">View bag</a><a href="checkout.html">Checkout</a></div>
+<div><h4>Dhaaga</h4><a href="about.html">Our story</a><a href="mailto:hello@dhaaga.example">hello@dhaaga.example</a></div>
+</div>
+<p class="legal">&copy; 2026 Dhaaga. This is a demo store built for analytics practice. Products are fictional and no real orders are taken.</p>
+</div>
+</footer>
+<script>window.ROOT="";</script>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+ADDING REAL PHOTOS
+
+Put a photo in the images folder with the SAME name as the product and the .jpg extension.
+The site uses the .jpg automatically; if it is missing, it shows the built-in illustration.
+
+Suggested size: 800 x 1000 pixels (4:5 portrait).
+
+classic-crew-neck-tee.jpg   (Classic Crew Neck Tee)
+pique-polo-tshirt.jpg   (Pique Polo T-Shirt)
+oversized-graphic-tee.jpg   (Oversized Graphic Tee)
+oxford-button-down-shirt.jpg   (Oxford Button-Down Shirt)
+linen-casual-shirt.jpg   (Linen Casual Shirt)
+checked-flannel-shirt.jpg   (Checked Flannel Shirt)
+slim-fit-chinos.jpg   (Slim Fit Chinos)
+formal-pleated-trousers.jpg   (Formal Pleated Trousers)
+cotton-cargo-trousers.jpg   (Cotton Cargo Trousers)
+slim-fit-indigo-jeans.jpg   (Slim Fit Indigo Jeans)
+straight-fit-black-jeans.jpg   (Straight Fit Black Jeans)
+relaxed-fit-washed-jeans.jpg   (Relaxed Fit Washed Jeans)
+cotton-straight-kurta.jpg   (Cotton Straight Kurta)
+linen-nehru-kurta.jpg   (Linen Nehru Kurta)
+chikankari-festive-kurta.jpg   (Chikankari Festive Kurta)
+classic-bomber-jacket.jpg   (Classic Bomber Jacket)
+denim-trucker-jacket.jpg   (Denim Trucker Jacket)
+quilted-puffer-jacket.jpg   (Quilted Puffer Jacket)
